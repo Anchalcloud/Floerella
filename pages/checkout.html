@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="Stylesheet" href="../css/checkout.css">
+</head>
+<body>
+
+    <main class="checkout-page">
+
+        <div class="customer-details">
+
+            <h2> <span><i class="fa-solid fa-address-card"></i></span>  Customer Details</h2>
+
+            <div class="input-group">
+                <label class="labels" for="fullname"> <span><i class="fa-solid fa-user"></i></span> Full Name</label>
+                <input  class="values" type="text" id="fullname" name="fullname" placeholder="Enter your fullname" required>
+            </div>  
+              
+            <div class="input-group">
+                <label class="labels" for="email"><span><i class="fa-solid fa-envelope"></i></span> Email</label>
+               <input  class="values" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            </div>
+               
+            <div class="input-group">
+                <label class="labels" for="phone"><span><i class="fa-solid fa-phone"></i></span> Phone Number</label>
+               <input  class="values" type="tel" id="phone" name="phone" placeholder="" required>
+               
+            </div>
+              
+            <div class="input-group">
+               <label class="labels" for="address"> <span><i class="fa-solid fa-location-dot"></i></span> Address </label>
+               <textarea id="address" placeholder="Enter your address"></textarea>
+            </div>
+               
+               
+            <div class="input-group">
+                <label class="labels" for="city"><span><i class="fa-solid fa-city"></i></span> City </label>
+                <input  class="values" type="text" id="city" name="city" placeholder="" required>
+            </div>
+
+            <div class="input-group">
+                <label class="labels" for="state"><span><i class="fa-solid fa-map"></i></span> State</label>
+                <input  class="values" type="text" id="state" name="state" placeholder="" required>
+            </div>
+
+            <div class="input-group">
+               <label class="labels" for="pincode"><span><i class="fa-solid fa-map-pin"></i></span> Pincode</label>
+               <input  class="values" type="text" id="pincode" name="pincode" placeholder="" required>
+            </div>
+               
+
+        </div>
+
+        <div class="order-summary">
+
+            <h2> <i class="fa-solid fa-receipt"></i> Order Summary</h2>
+
+             <div class="summary-items">
+                <p class="price"><span class="Quantity"></span></p>
+             </div>
+
+
+           <hr>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span id="subtotal">$1500</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Delivery</span>
+                <span>$100</span>
+            </div>
+
+            <div class="summary-row total">
+               <span class="total">Total</span>
+               <span id="totalPrice">$1600</span>
+            </div>
+
+             <button class="place-order-btn">Place Order</button>
+
+        </div>
+
+    </main>
+
+    <script src="../javascript/checkout.js"></script>
+</body>
+</html>

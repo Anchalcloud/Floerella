@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="../css/Style.css">
+    <link rel="Stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+</head>
+<body>
+    
+
+    <header class="heading">
+        <div class="navbar ">
+            <div class="logo border">
+
+            </div>
+
+             <div class="search"> <i class="fa-solid fa-search"></i> 
+                <input type="text"  id="navbarSearch" placeholder="Search bouquets..." ></div>
+
+
+            <div class="details ">
+              <a href="Home.html">Home</a>
+              <a href="About.html">About</a>
+              <a href="Contact.html">contact</a>
+              <a href="Shop.html">Shop</a>
+
+              <div class="nav-icons">
+                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+
+                    <a  class="cart" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </header>
+
+    <div class="Shop">
+        <h5>THE SHOP</h5>
+        <h1>Bouquets in Bloom</h1>
+        <p>Freshly cut, softly wrapped and ready to travel. Filter to find your moment.</p>
+
+        
+    </div>
+
+    <section class="shop-page" id="shopPage">
+
+        <div class="search-product" id="slidebar">
+           
+            <div class=" Search-bou"> <i class="fa-solid fa-search"></i> 
+                <input type="text" id="searchBox" placeholder="Search bouquets..." ></div>
+            
+            <h5>OCCASION</h5>
+            <div class="occasion-option">
+
+                <button class="option-occasion active-filter"  data-filter="All" > All</button>
+                <button class="option-occasion "  data-filter="Anniversary"> Anniversary</button>
+                <button class="option-occasion"  data-filter="Birthday">Birthday</button>
+                <button class="option-occasion "  data-filter="Wedding">Wedding</button>
+                <button class="option-occasion "  data-filter="Sympathy">Sympathy</button>
+                <button class="option-occasion "  data-filter="Date">Date </button>
+
+            </div>
+
+            <h5>COLOUR</h5>
+            <div class="color-option">
+
+                <button class="option-color active-filter" data-filter="All" >All</button>
+                <button class="option-color " data-filter="Pink"> Pink</button>
+                <button class="option-color" data-filter="White">White</button>
+                <button class="option-color" data-filter="Yellow">Yellow</button>
+                <button class="option-color " data-filter="Red">Red</button>
+                <button class="option-color " data-filter="Orange">Orange</button>
+                <button class="option-color " data-filter="Lavender">Lavendra</button>
+                
+
+
+
+            </div>
+
+            <h5>PRICE</h5>
+            <div class="price-upto">
+                <input type="range" min="500" max="5000" value="2500" id="priceRange">
+                <p>Up to <span id="pricecValue">$2500</span></p>
+            </div>
+
+
+
+        </div>
+
+        <div class="products-list" id="products">
+
+            <article class="Product"   data-name="Magnolia" data-price="1500" 
+                   data-color="White"  data-occasion="Wedding"   data-id="1">
+                <div class="img-container">
+
+                     <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                     <img src="../images/Magnolia.jfif" alt="">
+                </div>
+                <p class="para">Wedding</p>
+                <p class="para2"><span class="name">Magnolia</span> <span class="price-flower">$1500</span></p>
+                <p class="para3"><span class="star"><i class="fa-solid fa-star"></i></span>4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article class="Product"  data-name="Cherry" data-price="1400" 
+                   data-color="Pink"  data-occasion="Sympathy"  data-id="2">
+
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/cherry.jfif" alt="">
+                 </div>
+                <p class="para">Sympathy</p>
+                <p class="para2"><span class="name">Cherry</span> <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article  class="Product"  data-name="Orchids" data-price="1200" 
+                   data-color="Pink"  data-occasion="Birthday"  data-id="3">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/orchid.jfif" alt="">
+                 </div>
+                <p class="para">Birthday</p>
+                <p class="para2"> <span class="name">Orchids</span> <span class="price-flower">$1200</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article class="Product"  data-name="Blush  Peony" data-price="1200" 
+                   data-color="Pink"  data-occasion="Anniversary"  data-id="4">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Blush.jfif" alt="">
+                 </div>
+                <p class="para">Anniversary</p>
+                <p class="para2"><span class="name">Blush Peony</span>  <span class="price-flower">$1200</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+            
+            <article class="Product"  data-name="Sunflower" data-price="1100" 
+                    data-color="Yellow"  data-occasion="Date"  data-id="5">
+                <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                     <img src="../images/Sunflower.jfif" alt="">
+                </div>
+                <p class="para">Date</p>
+                <p class="para2"><span class="name">Sunflower</span> <span class="price-flower">$1300</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+             
+            <article  class="Product"  data-name="Gladious" data-price="1100" 
+                   data-color="Orange"  data-occasion="Birthday"  data-id="6">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Gladilos.jfif" alt="">
+                 </div>
+                <p class="para">Birthday</p>
+                <p class="para2"><span class="name">Gladious</span> <span class="price-flower">$1100</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article  class="Product"  data-name="Rose" data-price="1400" 
+                   data-color="White"  data-occasion="Wedding"  data-id="7">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Rose2 wed.jfif" alt="">
+                 </div>
+                <p class="para">Wedding</p>
+                <p class="para2"> <span class="name"> Rose</span> 
+                    <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+
+
+
+            <article class="Product"  data-name="Camelia" data-price="1000" 
+                   data-color="Pink"  data-occasion="Wedding"  data-id="8">
+                <div class="img-container">
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                     <img   src="../images/Pink Camelia.jfif" alt="">
+                </div>
+                <p class="para"> Wedding </p>
+                <p class="para2"> <span class="name">Camelia</span>
+                     <span class="price-flower">$1000</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article class="Product"  data-name="Daisy" data-price="1300" 
+                   data-color="Pink"  data-occasion="Anniversary"  data-id="9">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/pink daisy.jfif" alt="">
+                 </div>
+                <p class="para">Anniversary</p>
+                <p class="para2"> <span class="name"> Pink Daisy</span>
+                     <span class="price-flower">$1300</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            
+
+            <article  class="Product"  data-name="Dahlia" data-price="1400" 
+                   data-color="Orange"  data-occasion="Birthday"  data-id="10">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/dahlia.jfif" alt="">
+                 </div>
+                <p class="para">Birthday</p>
+                <p class="para2"> <span class="name">Dahlia</span> <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article class="Product"  data-name="Daisy" data-price="1300" 
+                   data-color="White"  data-occasion="Sympathy"  data-id="11">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Daisy.jfif" alt="">
+                 </div>
+                <p class="para">Sympathy</p>
+                <p class="para2"> <span class="name">Daisy</span>
+                     <span class="price-flower">$1300</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article class="Product"  data-name="Tulip1" data-price="1200" 
+                   data-color="Pink"  data-occasion="Date"  data-id="12">
+                <div class="img-container">
+                    
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Tulip1.jfif" alt="">
+                </div>
+                <p class="para">Date</p>
+                <p class="para2"> <span class="name">Tulip</span>
+                     <span class="price-flower">$1200</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+
+            </article>
+
+             <article  class="Product"  data-name="Rose" data-price="1200" 
+                   data-color="Red"  data-occasion="Date"  data-id="13">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Rose.jfif" alt="">
+                 </div>
+                <p class="para">Date</p>
+                <p class="para2"> <span class="name">Rose</span> 
+                    <span class="price-flower">$1200</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+
+            
+             <article  class="Product"  data-name="Rose" data-price="1400" 
+                   data-color="White"  data-occasion="Birthday"  data-id="14">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/White rose.jfif" alt="">
+                 </div>
+                <p class="para">Birthday</p>
+                <p class="para2"> <span class="name"> White Rose</span> 
+                    <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+             <article  class="Product"  data-name="Rose" data-price="1500" 
+                   data-color="Pink"  data-occasion="Date"  data-id="15">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Pink rose.jfif" alt="">
+                 </div>
+                <p class="para">Date</p>
+                <p class="para2"> <span class="name">Pink Rose</span> 
+                    <span class="price-flower">$1500</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+             <article  class="Product"  data-name="Rose" data-price="1400" 
+                   data-color="Yellow"  data-occasion="Sympathy"  data-id="16">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Yellow rose.jfif" alt="">
+                 </div>
+                <p class="para">Symapathy</p>
+                <p class="para2"> <span class="name">Yellow Rose</span> 
+                    <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article  class="Product"  data-name="Tulip1" data-price="1400" 
+                   data-color="Red"  data-occasion="Anniversary"  data-id="17">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Red Tulip.jfif" alt="">
+                 </div>
+                <p class="para">Anniversary</p>
+                <p class="para2"> <span class="name">Red Tulip</span> 
+                    <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article  class="Product"  data-name="Dahlia" data-price="1400" 
+                   data-color="White"  data-occasion="Sympathy"  data-id="18">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/white dahlia.jfif" alt="">
+                 </div>
+                <p class="para">Sympathy</p>
+                <p class="para2"> <span class="name">Dahlia</span> <span class="price-flower">$1400</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            <article  class="Product"  data-name="Lily" data-price="1300" 
+                   data-color="Pink"  data-occasion="Anniversary"  data-id="19">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/Anniversary.jfif" alt="">
+                 </div>
+                <p class="para">Anniversary</p>
+                <p class="para2"> <span class="name">Delight mix</span>
+                    <span class="price-flower">$1300</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+
+
+             
+             <article  class="Product"  data-name="Lily" data-price="1300" 
+                   data-color="Pink"  data-occasion="Anniversary"  data-id="20">
+                 <div class="img-container">
+
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i></button>
+
+                    <img src="../images/lily.jfif" alt="">
+                 </div>
+                <p class="para">Anniversary</p>
+                <p class="para2"> <span class="name">Lily</span>
+                    <span class="price-flower">$1300</span></p>
+                <p class="para3"> <span class="star"><i class="fa-solid fa-star"></i></span> 4.9· 214 reviews</p>
+                <button class="prod-btn">Add To Cart</button>
+            </article>
+
+            
+
+
+            
+
+        </div>
+
+         
+    </section>
+
+
+
+    <footer>
+
+        <div class="subscription">
+              <h1>Floerella</h1>
+               <p class="message">A neighborhood flower bouquet. Handcrafted bouqueets,
+                 wedding florals, and living greenery delivered the same ady with care.</p>
+               <div class="subs">
+                 <p class="address">Your email for seasonal dro</p>
+                 <button class="btn2">Subscribe</button>
+               </div>
+        </div>
+       
+    
+        <div class="visit">
+            <h4>VISIT</h4>
+            <p class="address"> <i class="fa-solid fa-location"></i> 24 Luby Circular Road, Dhanbad </p>
+           <p class="address"><i class="fa-solid fa-phone"></i>   +91 906-519-7272</p>
+           <p class="address"><i class="fa-regular fa-envelope"></i>  hello@floerella.co</p>
+    
+
+           <div class="more">
+              <div class="brands"><i class="fa-brands fa-instagram"></i></div>
+               <div class="brands"><i class="fa-brands fa-facebook"></i></div>
+               <div class="brands"><i class="fa-brands fa-twitter"></i></div>
+            </div>
+
+
+        </div>
+             
+        
+        
+    
+    </footer>
+    <div class="copyright">
+        <p class="copy">2026 Floerella Studio.Grown with love.</p>
+        <p class="copy"> Fresh Flower * Same-day deliver * Secure Checkout</p>
+    </div>
+
+    
+    <script src="../javascript/shop.js"></script>
+    <script src="../javascript/navbar.js"></script>
+</body>
+</html>

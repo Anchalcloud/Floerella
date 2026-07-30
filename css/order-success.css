@@ -1,0 +1,315 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+
+    background:linear-gradient(
+        120deg,
+        #fae8ef 10%,
+        #e7d9ef 55%,
+        #dce9f3 100%
+    );
+
+    min-height:100vh;
+    overflow-x:hidden;
+  
+
+}
+
+.success-container{
+    width:100%;
+    min-height:60vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 80px;
+
+    padding:25px;   /* space around the card */
+
+    box-sizing:border-box;
+}
+
+
+.success-card{
+   
+    min-width:350px;
+    background:rgb(255, 255, 255);
+
+    padding:50px 40px;
+
+    border-radius:25px;
+
+    text-align:center;
+   
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.success-card i{
+
+    font-size:80px;
+    color:#6bbf73;
+
+    margin-bottom:20px;
+}
+
+.success-card h1{
+
+    color:#7c3343;
+    font-size:42px;
+
+    margin-bottom:15px;
+}
+
+.success-card p{
+
+    color:#9c818d;
+    font-size:20px;
+
+    line-height:1.6;
+}
+
+.success-card h4{
+    color:#8d7c96;
+}
+
+.info-box{
+
+    margin-top:35px;
+    padding:20px;
+
+    background:#e7d9ef;
+
+    border-radius:15px;
+}
+
+.info-box h3{
+
+    color:#85465c;
+    margin-bottom:15px;
+}
+
+.info-box p{
+    color:#6a5c72;
+    margin:12px 0;
+    font-size:18px;
+}
+
+.place-order-btn{
+
+    margin-top:35px;
+
+    width:100%;
+    padding:18px;
+
+    border:none;
+    border-radius:100px;
+
+    background:#85465c;
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.place-order-btn:hover{
+
+    background:#6d203b;
+    transform:translateY(-3px);
+}
+
+.success-card i{
+    animation:pop .7s ease;
+}
+
+@keyframes pop{
+
+    0%{
+        transform:scale(.2);
+        opacity:0;
+    }
+
+    70%{
+        transform:scale(1.2);
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
+
+.thank-you{
+
+    margin-top:30px;
+
+    color:#85465c;
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.thank-you span{
+
+    font-size:18px;
+
+    color:#856875;
+
+    font-weight:400;
+
+    line-height:1.6;
+}
+
+.flower-icon{
+
+    font-size:75px;
+    margin-bottom:10px;
+
+    animation:floatFlower 2s ease-in-out infinite;
+}
+
+@keyframes floatFlower{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+
+
+/*----------------TABLET DESIGN-------------*/
+@media (max-width:768px){
+
+    .success-card{
+        width:90%;
+        padding:40px 30px;
+    }
+
+    .success-card h1{
+        font-size:36px;
+    }
+
+    .success-card h4{
+        font-size:18px;
+    }
+
+    .success-card p{
+        font-size:18px;
+    }
+
+    .flower-icon{
+        font-size:65px;
+    }
+
+    .info-box p{
+        font-size:17px;
+    }
+
+    .thank-you{
+        font-size:24px;
+    }
+
+    .thank-you span{
+        font-size:17px;
+    }
+
+    .place-order-btn{
+        font-size:18px;
+        padding:16px;
+    }
+
+}
+
+
+
+/*-------------MOBILR DESIGN-----------*/
+@media (max-width:480px){
+
+    body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+    .success-container{
+        width:100%;
+        padding:15px;
+        box-sizing:border-box;
+    }
+
+    .success-card{
+        width:100%;
+        max-width:100%;
+
+        padding:25px 18px;
+
+        box-sizing:border-box;
+    }
+
+    .info-box{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .info-box p{
+        font-size:14px;
+        overflow-wrap:break-word;
+        word-break:break-word;
+    }
+
+    .place-order-btn{
+        width:100%;
+    }
+}
+
+
+/*-----------SMALL PHONE-------------------*/
+@media (max-width:360px){
+
+    body{
+        padding:15px;
+    }
+
+    .success-card{
+        padding:25px 18px;
+        width:90%;
+    }
+
+    .success-card h1{
+        font-size:26px;
+    }
+
+    .success-card p{
+        font-size:15px;
+    }
+
+    .flower-icon{
+        font-size:50px;
+    }
+
+    .place-order-btn{
+        font-size:16px;
+    }
+
+}
