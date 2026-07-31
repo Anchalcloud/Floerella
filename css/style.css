@@ -370,7 +370,7 @@ transition: 0.5s;
 
 
 #flower4{
-    background-image: url("../images/sunflower.jfif");
+    background-image: url("../images/date-sunflower.jfif");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -380,7 +380,7 @@ transition: 0.5s;
 }
 
 #flower5{
-    background-image: url("../images/magnolia.jfif");
+    background-image: url("../images/wedding-special.jfif");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -410,7 +410,7 @@ transition: 0.5s;
 }
 
 #flower8{
-    background-image: url("../images/gladilos.jfif");
+    background-image: url("../images/orange-gladilos.jfif");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
