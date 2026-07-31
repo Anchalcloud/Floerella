@@ -11,7 +11,7 @@ if (navbarSearch) {
             if (keyword !== "") {
 
                 window.location.href =
-                    `shop.html?search=${encodeURIComponent(keyword)}`;
+                    `pages/shop.html?search=${encodeURIComponent(keyword)}`;
 
             }
 
@@ -33,7 +33,7 @@ flowerCards.forEach(card => {
         const flower = card.dataset.search;
 
         window.location.href =
-        `shop.html?search=${encodeURIComponent(flower)}`;
+        `pages/shop.html?search=${encodeURIComponent(flower)}`;
 
     });
 
@@ -49,7 +49,7 @@ occasionCards.forEach(card => {
         const occasion = card.dataset.occasion;
 
         window.location.href =
-        `shop.html?search=${encodeURIComponent(occasion)}`;
+        `pages/shop.html?search=${encodeURIComponent(occasion)}`;
 
     });
 
