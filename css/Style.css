@@ -191,9 +191,9 @@ h7{
 }
 
 .img{
-    background-image: url("../images/Front.jfif");
+    background-image: url("../images/home-img.jfif");
     width:28%;
-    height:500px;
+    height:400px;
     margin-top: 100px;
     margin-right:200px;
     border-radius:30%;
@@ -496,14 +496,14 @@ transition: 0.5s;
 
 .benefit{
 
-    height:140px;
+    height:150px;
     width:300px;
     border-radius:10%;
     border:2px solid rgb(177, 153, 157);
     text-align: left;
     background-color:white;
-    padding-top: 30px;
-    margin-top:30px;
+    padding-top: 10px;
+    margin-top:10px;
     padding-left: 30px;
     transition: .3s;
     box-shadow: 0px 3px 10px rgb(150, 112, 120);
@@ -562,15 +562,15 @@ transition: 0.5s;
 
 .rating{
 
-    height:150px;
+    height:160px;
     width:300px;
     border-radius:10%;
     border:2px solid rgb(124, 122, 146);
     text-align: left;
     background-color:white;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-top:30px;
-    padding-left: 50px;
+    padding-left: 40px;
     transition: .3s;
     box-shadow: 0px 3px 15px rgb(72, 70, 141);
     
@@ -608,7 +608,7 @@ footer{
     padding-left:50px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap:40px;
     
 
@@ -639,6 +639,7 @@ footer{
 
 .subs button{
     color: #ebe4f3;
+    border-radius: 100px ;
     background-color: rgb(146, 57, 84);
     transition: .3s;
 }
