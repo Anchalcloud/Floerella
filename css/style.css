@@ -359,7 +359,7 @@ transition: 0.5s;
 }
 
 #flower3{
-    background-image: url("../images/Blush.jfif");
+    background-image: url("../images/peony.jfif");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -380,7 +380,7 @@ transition: 0.5s;
 }
 
 #flower5{
-    background-image: url("../images/Magnolia.jfif");
+    background-image: url("../images/magnolia.jfif");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -793,7 +793,7 @@ footer h1{
 }
 
 .img2{
-    background-image: url("../images/Shop.jfif");
+    background-image: url("../images/shop.jfif");
     width:70%;
     min-height:480px;
     margin-right:200px;
