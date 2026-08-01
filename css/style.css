@@ -771,7 +771,7 @@ footer h1{
 .Abouts{
     margin-top:50px;
     background-color: rgb(252, 249, 253);
-    width:100%;
+    width:50%;
     height:500px;
     display: flex;
     align-items: center;
@@ -796,7 +796,7 @@ footer h1{
 
 .img2{
     background-image: url("../images/about.jfif");
-    min-width:500;
+    width:100%;
     object-fit: cover;
     min-height:350px;
     margin-right:200px;
