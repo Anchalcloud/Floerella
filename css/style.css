@@ -796,7 +796,7 @@ footer h1{
 
 .img2{
     background-image: url("../images/about.jfif");
-    width:100%;
+    width:500px;
     object-fit: cover;
     min-height:350px;
     margin-right:200px;
