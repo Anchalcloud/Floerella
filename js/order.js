@@ -10,7 +10,7 @@ const continueBtn = document.getElementById("continueShopping");
 
 continueBtn.addEventListener("click", () => {
 
-    window.location.href = "shop.html";
+    window.location.href = "pages/shop.html";
 
 });
 
