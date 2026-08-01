@@ -1051,13 +1051,13 @@ hr{
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    gap:20px;
+    gap:80px;
  
 }
 
 .Search-bou input{
 
-    width:70%;
+    width:90%;
     border:none;
     outline:none;
     font-size:18px;
@@ -1067,7 +1067,7 @@ hr{
 
 .search-product{
     background:transparent ;
-    width:250px;
+    width:400px;
    
     align-self:flex-start;
 
@@ -1179,6 +1179,7 @@ hr{
     row-gap: 30px;
     margin-right: 100px;
     margin-top: 100px;
+    margin-left: 40px;
     flex:1;
     overflow-y: auto;
     scrollbar-width: none;
@@ -1192,7 +1193,8 @@ hr{
 
 .Product{
     min-height: 780px;
-    min-width: 100%;
+    min-width: 60%;
+    width:100%;
     opacity:1;
 }
 
