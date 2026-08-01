@@ -607,12 +607,10 @@ footer{
     padding: 50px 60px 20px;
     padding-left:50px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap:52%;
-
-   
-
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap:40px;
+    
 
 }
 
@@ -771,7 +769,7 @@ footer h1{
 .Abouts{
     margin-top:50px;
     background-color: rgb(252, 249, 253);
-    width:50%;
+    width:100%;
     height:500px;
     display: flex;
     align-items: center;
@@ -796,11 +794,10 @@ footer h1{
 
 .img2{
     background-image: url("../images/about.jfif");
-    width:30%;
-    object-fit: cover;
-    min-height:350px;
+    width:100%;
+    min-height:480px;
     margin-right:200px;
-    border-radius:40%;
+    border-radius:30%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1052,13 +1049,13 @@ hr{
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    gap:80px;
+    gap:200px;
  
 }
 
 .Search-bou input{
 
-    width:90%;
+    width:100%;
     border:none;
     outline:none;
     font-size:18px;
@@ -1180,7 +1177,6 @@ hr{
     row-gap: 30px;
     margin-right: 100px;
     margin-top: 100px;
-    margin-left: 40px;
     flex:1;
     overflow-y: auto;
     scrollbar-width: none;
@@ -1194,8 +1190,7 @@ hr{
 
 .Product{
     min-height: 780px;
-    min-width: 60%;
-    width:100%;
+    min-width: 100%;
     opacity:1;
 }
 
