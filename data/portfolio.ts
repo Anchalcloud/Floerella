@@ -6,7 +6,7 @@ export const PORTFOLIO_DATA = {
     intro: 'I\'m a Computer Science student building a strong foundation in software development, data structures and algorithms, full-stack development, and AI/ML. I enjoy turning real-world problems into practical software solutions and continuously build projects to strengthen my engineering skills.',
     location: 'India',
     expectedGraduation: 2029,
-    email: 'your.email@example.com', // Placeholder - user will update
+    email: 'kumarianchal3663@gmail.com',
     links: {
       linkedin: 'https://www.linkedin.com/in/anchal-thakur-an',
       github: 'https://github.com/Anchalcloud',
