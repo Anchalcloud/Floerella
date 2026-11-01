@@ -53,7 +53,7 @@ export const PORTFOLIO_DATA = {
   ],
   
   problemSolving: {
-    count: 40, // Easy to update
+    count: 100, // Easy to update
     roadmap: 'NeetCode',
     focus: 'DSA & Problem Solving',
     topics: [
@@ -159,7 +159,7 @@ export const PORTFOLIO_DATA = {
   
   learningJourney: [
     'Programming Fundamentals',
-    '40+ DSA Problems',
+    '100+ DSA Problems Solved',
     'Problem-Solving Patterns',
     'Full-Stack Development',
     'Machine Learning',
