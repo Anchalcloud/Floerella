@@ -53,7 +53,7 @@ export const PORTFOLIO_DATA = {
   ],
   
   problemSolving: {
-    count: 100, // Easy to update
+    count: 150, // Easy to update
     roadmap: 'NeetCode',
     focus: 'DSA & Problem Solving',
     topics: [
@@ -91,7 +91,7 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: 'flowerella',
-      name: 'Flowerella',
+      name: 'Floerella',
       category: 'Frontend / E-commerce UI',
       description: 'Flowerella is a responsive flower e-commerce website built with React, focusing on product discovery, filtering, wishlist and cart interactions.',
       technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
@@ -106,7 +106,7 @@ export const PORTFOLIO_DATA = {
         'Navigation between pages',
       ],
       github: '', // Placeholder
-      liveDemo: '', // Placeholder
+      liveDemo: 'https://react-versions-floerella-wtlq.vercel.app',
       image: '/projects/flowerella.png',
     },
     {
@@ -159,7 +159,7 @@ export const PORTFOLIO_DATA = {
   
   learningJourney: [
     'Programming Fundamentals',
-    '100+ DSA Problems Solved',
+    '150+ DSA Problems Solved',
     'Problem-Solving Patterns',
     'Full-Stack Development',
     'Machine Learning',
